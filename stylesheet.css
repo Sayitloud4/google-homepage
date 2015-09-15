@@ -27,7 +27,7 @@
 	display: block;
 	margin:auto;
 	text-align: center;
-	border:1px solid black;
+	overflow: hidden;
 	}
 
 #logo{	
@@ -37,14 +37,47 @@
 
 }
 
-#search{
-	position: relative;	
-	display: block;
-	border: 1px solid gray;
-	margin-top: 20px;
-	width: auto;
-	height: 40px;
+#clear {
+
+	clear:both;
+}
+#searchspace{
+width: 100%;
+position: relative;
+height: 60px;
+background-color: white;
+text-align: center;
+}
+
+#formbox {
+	position: relative;
+	max-width: 2048px;
+	width: 450px;
+	height: 30px;
+	line-height: 26px;
+	margin-top: 10px;
+	border: 1px #b8b8b8 solid;
+	-webkit-appearance: textfield;
 
 
 }
+
+#buttonarea {
+	position: inherit;
+	text-align: center;
+	width: 100%
+}
+
+.button {
+	background-color: #f1f1f1;
+	width: 150px;
+	height: 26px;
+	display: inline-block;
+	color:#888;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+
+
 
